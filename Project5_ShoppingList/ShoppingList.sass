@@ -1,0 +1,87 @@
+$color_blue: #5A86BF
+$color_yellow: #F2DB66
+$color_red: #D93644
+$color_white: #FCFCFC
+
+*
+  // border: solid 1px
+  position: relative
+  font-family: "Ubuntu", sans-serif,"微軟正黑體"
+
+
+html,body
+  width: 100%
+  height: 150%
+  margin: 0
+  display: flex
+  justify-content: center
+  align-items: center
+  background-color: $color_yellow
+#buylist
+  display: inline-block
+  padding: 20px
+  border: solid 4px $color_blue
+  background-color: $color_white
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.4)
+
+h1 
+  padding: 20px
+  margin-top: -20px
+  margin-left: -20px
+  margin-right: -20px
+  border-bottom: solid 4px $color_blue
+  background-color: $color_red
+  color: $color_white
+  font-weight: 500
+
+
+  
+#items_list
+  padding: 5px
+  margin-top: 10px
+.buy_item
+  padding: 5px
+  list-style: none
+  border: solid 3px $color_blue
+  margin-top: 10px
+  font-weight: 900
+  input
+    border: solid 3px $color_blue
+    width: 100px
+    padding: 2px
+  .price
+    display: inline-block
+    position: absolute
+    padding-left: 8px
+    padding-right: 8px
+    right: 50px
+    background-color: $color_yellow
+    &:before
+      content : "$ "
+  .del_btn
+    display: inline-block
+    position: absolute
+    padding: 0px 6px 
+    right: 10px
+    cursor: pointer
+    &:hover
+      background-color: $color_red
+      color: white
+  .addbtn
+    cursor: pointer
+    margin-left: 10px
+    padding: 5px
+    border: solid 3px $color_blue
+    &:hover
+      background-color: $color_red
+      color: white
+.total
+  background-color: $color_red
+  color: $color_white
+  border: solid 3px $color_blue
+  .price
+    color: $color_white
+    background-color: transparent
+.control_panel
+  padding: 20px
+  

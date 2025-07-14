@@ -1,0 +1,143 @@
+@charset "UTF-8";
+* {
+  font-family: "微軟正黑體";
+  color: #023E73;
+  letter-spacing: 2px;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold !important;
+}
+
+nav.navbar.fixed-top.navbar-expand-md.navbar-top {
+  background-color: transparent;
+  transition: 0.5s;
+}
+nav.navbar.fixed-top.navbar-expand-md.navbar-top a {
+  color: #3A5D8C;
+  transition: 0.5s;
+}
+nav.navbar.fixed-top.navbar-expand-md.navbar-top a:hover {
+  color: #023E73;
+}
+
+header {
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+header .container {
+  color: #023E73;
+  padding: 200px 0px;
+}
+header hr {
+  max-width: 100px;
+  border: solid 2px rgba(2, 62, 115, 0.9);
+  margin: 0 auto 20px auto;
+}
+header h4 {
+  color: rgba(2, 62, 115, 0.6);
+  font-weight: normal;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #BACDD9;
+}
+section#section_ask .col-sm-5.icon {
+  height: 350px;
+  background-image: url("https://cdn.vectorstock.com/i/500p/21/19/vacation-travel-airplane-plane-in-sky-vector-50942119.jpg");
+  background-position: center center;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  mix-blend-mode: multiply;
+}
+section#section_ask h2 {
+  margin-top: 100px;
+  padding: 0px 20px;
+}
+
+section#section_about img {
+  width: 100%;
+}
+section#section_about .img_wrap {
+  height: 220px;
+}
+section#section_about h3 {
+  margin-top: 50px;
+}
+section#section_about p {
+  margin-top: 30px;
+}
+
+section#section_story {
+  background-color: #93ABBF;
+}
+section#section_story .col-sm-5 {
+  background-image: url("https://png.pngtree.com/png-vector/20221125/ourmid/pngtree-airplane-dash-line-flight-route-path-black-way-vector-png-image_42120960.jpg");
+  background-position: center center;
+  background-size: 120% auto;
+  background-repeat: no-repeat;
+  mix-blend-mode: multiply;
+  height: 400px;
+}
+section#section_story .col-sm-7 {
+  text-align: center;
+}
+section#section_story .col-sm-7 i {
+  font-size: 40px;
+}
+section#section_story .features {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+section#section_power img {
+  width: 80%;
+}
+section#section_power i {
+  font-size: 30px;
+}
+section#section_power .features {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+footer .container {
+  color: #023E73;
+  padding: 60px 0px;
+}
+footer hr {
+  max-width: 100px;
+  border: solid 2px rgba(2, 62, 115, 0.9);
+  margin: 0 auto 20px auto;
+}
+footer input.form-control {
+  margin-bottom: 15px;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  border: solid 2px #3A5D8C;
+}
+footer button.btn.btn-primary {
+  background-color: #537FA6;
+  border: solid 2px #3A5D8C;
+  color: #BACDD9;
+}/*# sourceMappingURL=Plane.css.map */

@@ -1,0 +1,64 @@
+$bg_color: #FFE6D9
+$paw_colow: #624300
+
+html,body
+  width: 100%
+  height: 100%
+  margin: 0
+  overflow: hidden
+  background-color: $bg_color
+  
+.bear
+  position: absolute
+  left: 50%
+  bottom: 0px
+  transform: translate(-50%)
+  transition: 0.5s
+  
+#bear1
+  left: 15%
+  // bottom: -10px
+#bear2
+  left: 85%
+  // bottom: -10px
+#bear3
+  left: 50%
+  
+#paw
+  position: absolute
+  .all
+    // border: solid 2px  black
+    width: 100px
+    height: 100px
+    position: relative
+    .circle
+      // border: solid 2px  black
+      width: 20px
+      height: 20px
+      border-radius: 50%
+      display: inline-block
+      position: absolute
+      left: 50%
+      top:30%
+      transform: translate(-50%,-50%)
+      background-color: $paw_colow
+    .circle1
+      left: 20%
+      top: 45%
+    .circel3
+      left: 80%
+      top: 45%
+    .btncircle
+      // border: solid 2px black
+      width: 40px
+      height: 40px
+      border-radius: 20px 20px 10px 10px
+      position: absolute
+      left: 50%
+      transform: translate(-50%)
+      bottom: 12px
+      background-color: $paw_colow
+      
+      
+  
+  

@@ -1,0 +1,614 @@
+*{
+    /* border: solid 2px black; */
+    vertical-align: top;
+    /* font-family: '微軟正黑體'; */
+    position: relative;
+    color : #3A3E40;
+    /* border: solid 2px black; */
+}
+
+html,body{
+    /* 整滿視窗，padding和margin都設置為0，確保頁面內容能夠填滿整個窗口。 */
+    width: 100%; height: 100%;
+    padding: 0px; margin: 0px;
+    background: #EBEFF2;
+}
+
+
+
+
+/* top */
+.top{
+    height: 250px;
+}
+
+.top.left {
+    display: inline-block;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.top.right{
+    display: inline-block;
+    width: 60%;
+    box-sizing: border-box;
+}
+.name{
+    display: inline-block;
+    margin-left:50px ;
+    margin-top:40px ;
+    /* border: solid 2px black; */
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.name h1{
+    /* border: solid 2px black; */
+    font-size: 50px;
+    font-family: Georgia, serif	;
+}
+.name h4{
+    position: relative;
+    bottom: 20px;
+    /* border: solid 2px black; */
+    font-weight: 500;
+    padding-left: 15px;
+    font-family: Arial Narrow, sans-serif;
+    letter-spacing: 2px;
+}
+
+.top-circle{
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%; 
+    position: absolute;
+    left: -90px;
+    top:-85px;
+    background-color: #99AABF;
+
+
+}
+.photo img {
+    width: 250px; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 50%; /* 正圓形 */
+    margin-left: 100px;
+    margin-top: 46px;
+
+}
+.photo-circle{
+    width: 264px; 
+    height: 264px;  
+    position: absolute;
+    border-radius: 50%; 
+    margin-left: 100px;
+    top: 39px;
+    left: -7.5px;
+    background-color: #B0C6D9;
+    
+}
+
+
+
+
+/* middle */
+.middle{
+    height: 250px;
+    
+}
+.middle.left {
+    display: inline-block;
+    width: 40%;
+    box-sizing: border-box;
+}
+.container {
+    margin: 80px;
+    margin-top: 100px;
+    width: 450px;
+}
+
+.fa-solid{
+    display: inline-block;
+    width: 40px; 
+    top: 4px;
+    text-align: center; /* 圖標水平居中 */
+    margin-right: 10px; /* 調整圖標與文字之間的距離 */
+    
+}
+
+.container p {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle; /* 文字與圖標垂直居中對齊 */
+    font-size: 16px; 
+    letter-spacing: 5px;
+    font-family: Arial Narrow, sans-serif		;
+
+    
+}
+
+
+
+.middle.right{
+    display: inline-block;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.middle.right h2 {
+    margin-left: 60px;
+    top: 15px;
+    display: inline-block;
+    font-family: Georgia, serif	;
+
+}
+
+.middle.right p {
+    margin-left: 65px;
+    bottom: 15px;
+    display: inline-block;
+    letter-spacing: 3px;
+    line-height: 25px;
+    font-size: 15px;
+    padding: 3px;
+    font-family:Arial Narrow, sans-serif;
+
+
+}
+
+
+/* bottom */
+.bottom {
+
+    height: 1000px;
+}
+
+.bottom.left {
+
+    display: inline-block;
+    width: 55%;
+    box-sizing: border-box;
+}
+
+.bottom.right{
+    display: inline-block;
+    width: 44%;
+    box-sizing: border-box;
+}
+
+.content{
+    height: 930px;
+    margin: 30px;
+    margin-left: 50px;
+    padding: 10px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    background-color: #B0C6D9;
+    border-radius: 2%;
+}
+.content h2{
+    display: block;
+    right: 5px;
+    bottom:10px;
+    letter-spacing: 2px;
+    font-family: Georgia, serif	;
+
+}
+
+.content .circlr{
+    position: absolute;
+    width: 15px; 
+    height: 15px;
+    margin-top: 2px;
+    margin-left: 5px;
+    /* border: 2px solid black;  */
+    border-radius: 100%; 
+    display: inline-block; 
+    background-color: #99AABF;
+
+
+
+}
+
+.content h4{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: -1px;
+    font-family: Georgia, serif	;
+    font-weight: 900;
+
+}
+
+.content h5{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-family:Arial Narrow, sans-serif;
+
+
+    
+}
+
+.content p{
+    display: inline-block;
+    padding: 5px;
+    margin-left: 40px;
+    margin-top: -20px;
+    line-height: 24px;
+    letter-spacing:4px;
+    font-family:Arial Narrow, sans-serif;
+
+
+
+}
+
+
+
+.container2 {
+    display: flex;  
+    align-items: center; /* 垂直居中 */
+    top :2px;
+
+}
+.container2 .line1 {
+    width: 150px; 
+    height: 1px; 
+    background-color: #3A3E40; 
+}
+.container2 .circle1 {
+    width: 10px; 
+    height: 10px;
+    /* border: 2px solid black;  */
+    border-radius: 100%; 
+    left: -10px;
+    background-color: #3A3E40;
+
+}
+
+.container2 .title1{
+    /* border: solid 2px black; */
+    display: inline;
+    margin :30px;
+    left: 50px;
+    font-family: Georgia, serif	;
+}
+
+
+.container2 .line2 {
+    width: 150px; 
+    height: 1px; 
+    background-color: #3A3E40; 
+    left: 115px;
+    
+}
+
+
+.container2 .circle2 {
+    width: 10px; 
+    height: 10px;
+    /* border: 2px solid black;  */
+    border-radius: 100%; 
+    right: 45px;
+    background-color: #3A3E40;
+}
+
+
+.container2 .line3 {
+    width: 150px; 
+    height: 1px; 
+    background-color: #3A3E40; 
+}
+
+.container2 .circle3 {
+    width: 10px; 
+    height: 10px;
+    /* border: 2px solid black;  */
+    border-radius: 100%; 
+    left: -10px;
+    background-color: #3A3E40;
+
+}
+
+
+
+.container2 .title2{
+    /* border: solid 2px black; */
+    font-family: Georgia, serif	;
+    display: inline;
+    margin :30px;
+    left: 20px;
+}
+
+.container2 .line4 {
+    width: 150px; 
+    height: 1px; 
+    background-color: #3A3E40; 
+    left: 40px;
+    
+}
+
+
+.container2 .circle4 {
+    width: 10px; 
+    height: 10px;
+    /* border: 2px solid black;  */
+    border-radius: 100%; 
+    right: 110px;
+    background-color: #3A3E40;
+}
+
+/* SKILL */
+
+.ring-container{
+    /* border: 2px solid black; */
+    position: relative;
+    width: 550px;
+    height: 200px;
+    /* overflow: hidden; */
+}
+.rightcircle1{
+    width: 90px;
+    height: 90px;
+    border:8px solid transparent; /* 圓圈框透明色 */
+    border-top:8px solid #99AABF; /* 圓圈右上方色 */
+    border-right:8px solid #99AABF;/* 圓圈右下方框色 */
+    border-radius: 50%; /* 完全圓形 */
+    position: absolute;
+    top:30px;
+    left : 51px;
+    transform : rotate(135deg);  /* 圓圈旋轉45度 */
+}
+.leftcircle1{
+    width: 90px;
+    height: 90px;
+    border:8px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top:32px;
+    left :51px;
+    border-top:8px solid #99AABF;
+    border-left:8px solid #B0C6D9;
+
+    /* border-right:8px solid rgb(25, 25, 94); */
+    transform : rotate(45deg); /* 旋轉45度時剛好能顯示右半個圓，旋轉-135度，剛好能隱藏右半個圓 */
+}
+.text1{
+    font-size: 25px;
+    display: inline-block;
+
+    top : 72px;
+    left :85px;
+    font-family:Arial Narrow, sans-serif;
+}
+
+.skill-1{
+    font-size: 14px;
+    top : 160px;
+    left :50px;
+    letter-spacing: 4px;
+    display: inline-block;
+    position: absolute;
+    font-family:Arial Narrow, sans-serif;
+
+
+}
+.rightcircle2{
+    width: 90px;
+    height: 90px;
+    border:8px solid transparent; /* 圓圈框透明色 */
+    border-top:8px solid #99AABF; /* 圓圈右上方色 */
+    border-right:8px solid #99AABF;/* 圓圈右下方框色 */
+    border-radius: 50%; /* 完全圓形 */
+    position: absolute;
+    top:30px;
+    right : 210px;
+    transform : rotate(45deg);
+}
+.leftcircle2{
+    width: 90px;
+    height: 90px;
+    border:8px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top:30px;
+    right : 210px;
+    border-top:8px solid #99AABF;
+    border-left:8px solid #99AABF;
+
+    transform : rotate(-120deg);
+}
+
+.rightcircle-gray{
+    width: 90px;
+    height: 90px;
+    border:8px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top:30px;
+    right : 210px;
+    border-right:8px solid #B0C6D9;
+    transform : rotate(-120deg);
+
+}
+
+.text2{
+    display: block;
+    font-size: 25px;
+    top :72px;
+    left :222px;
+    display: inline-block;
+    font-family:Arial Narrow, sans-serif;
+
+}
+
+.skill-2{
+    font-size: 14px;
+    top : 160px;
+    left :230px;
+    letter-spacing: 4px;
+    display: inline-block;
+    position: absolute;
+    font-family:Arial Narrow, sans-serif;
+
+
+}
+
+.rightcircle3{
+    width: 90px;
+    height: 90px;
+    border:8px solid transparent; /* 圓圈框透明色 */
+    border-top:8px solid #99AABF; /* 圓圈右上方色 */
+    border-right:8px solid #99AABF;/* 圓圈右下方框色 */
+    border-radius: 50%; /* 完全圓形 */
+    position: absolute;
+    top:30px;
+    right : 40px;
+    transform : rotate(45deg);
+}
+.leftcircle3{
+    width: 90px;
+    height: 90px;
+    border:8px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top:30px;
+    right : 40px;
+    border-top:8px solid #99AABF;
+    border-left:8px solid #99AABF;
+
+    transform : rotate(-100deg);
+}
+
+.rightcircle-gray2{
+    width: 90px;
+    height: 90px;
+    border:8px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top:30px;
+    right : 40px;
+    border-right:8px solid #B0C6D9;
+    transform : rotate(-115deg);
+
+}
+.text3{
+    font-size: 25px;
+    position: absolute;
+    bottom: 98PX;
+    right : 68px;
+    display: inline-block;
+    font-family:Arial Narrow, sans-serif;
+
+}
+
+.skill-3{
+    font-size: 14px;
+    position: absolute;
+    top:160px;
+    right : 28px;
+    letter-spacing: 4px;
+    display: inline-block;
+    font-family:Arial Narrow, sans-serif;
+
+
+}
+.language-container{
+    /* border: 2px solid black; */
+    position: relative;
+    width: 550px;
+    height: 270px;
+    /* overflow: hidden; */
+}
+
+.language{
+    font-size: 20px;
+    margin: 45px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    /* border: 2px solid black; */
+    padding: 2px;
+    font-family:Arial Narrow, sans-serif;
+    font-weight: 800;
+
+}
+.strip{
+    border: 2px solid #99AABF;
+    width: 400px;
+    height: 20px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -45px;
+}
+
+.strip1{
+    border: 2px solid #B0C6D9;
+    background-color: #B0C6D9;
+
+    width: 390px;
+    height: 10px;
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+
+}
+
+.strip2{
+    border: 2px solid #B0C6D9;
+    background-color: #B0C6D9;
+    width: 300px;
+    height: 10px;
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+
+}
+.strip3{
+    border: 2px solid #B0C6D9;
+    background-color: #B0C6D9;
+
+    width: 200px;
+    height: 10px;
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+
+}
+.language-container p{
+    font-size: 12px;
+    position:absolute;
+    right: -2px;
+    top:15px;
+    font-family:Arial Narrow, sans-serif;
+    font-weight: 300;
+}
+.education-container {
+    /* border: 2px solid black; */
+    position: relative;
+    width: 550px;
+    height: 200px;
+}
+
+.education-item {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family:Arial Narrow, sans-serif;
+
+}
+
+.education-item p {
+    margin: 0;
+    right: 20px;
+    font-family:Arial Narrow, sans-serif;    
+    font-weight: 700;
+
+
+
+}
+.education-item .year{
+    font-weight: 300;
+
+}

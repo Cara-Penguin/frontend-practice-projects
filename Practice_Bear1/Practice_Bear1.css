@@ -1,0 +1,52 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #FFE6D9;
+}
+
+#bear {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  transform: translate(-50%);
+}
+
+#paw {
+  position: absolute;
+}
+#paw .all {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+#paw .all .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  background-color: #624300;
+}
+#paw .all .circle1 {
+  left: 20%;
+  top: 45%;
+}
+#paw .all .circel3 {
+  left: 80%;
+  top: 45%;
+}
+#paw .all .btncircle {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px 20px 10px 10px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 12px;
+  background-color: #624300;
+}/*# sourceMappingURL=Practice_Bear1.css.map */

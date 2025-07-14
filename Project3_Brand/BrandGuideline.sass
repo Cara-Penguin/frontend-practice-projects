@@ -1,0 +1,124 @@
+$color_red: #F20530
+$color_green: #038C4C
+$color_blue : #048ABF
+$color_yellow: #F2C166
+$bg_color: #f6cfad
+$font_color: #3C3C3C					
+$font_base_size: 10px
+
+$Japanese_font: "Noto Sans JP"
+$English_font:  "Outfit"
+$max_content_width: 768px
+
+*
+  position: relative
+
+
+html,body
+    margin: 0px
+    padding: 0px
+
+@mixin size($w,$h)
+  width: $w
+  height: $h
+  
+.max_width
+    max-width: $max_content_width
+    margin-left: auto
+    margin-right:  auto
+.header
+    height: 400px
+    background-color: $color_yellow
+    & .icon
+        width: 450px
+        position: absolute
+        left: 48%
+        top: 40%
+        transform: translateX(-50%) translateY(-50%)
+
+
+
+.content
+  padding: 50px
+  & h5
+    margin-top: 10px
+    font-family: $English_font
+  & .title_hr
+    border: solid 2px $color_blue
+    width: 100px
+  & h1
+    font-size: $font_base_size*4
+    font-family: $Japanese_font
+  & h2
+    font-size: $font_base_size*3
+    font-family: $Japanese_font
+  & h3
+    font-size: $font_base_size*2
+    font-family: $Japanese_font
+  & h1.small_english
+    font-size: $font_base_size*2.4
+  & h2.small_english
+    font-size: $font_base_size*1.6
+  & h3.small_english
+    font-size: $font_base_size*1.2
+  & .small_english
+    font-family: $English_font
+    margin-top: -15px
+  & .button
+    padding: 5px 25px    // (上下、左右)
+    display: inline-block
+    margin-right: 10px
+    letter-spacing: 2px
+    font-size: $font_base_size*1.5
+    font-family: $English_font
+    border: solid 2px white
+    background-color: $color_red
+
+  & .button_green
+    background-color: $color_green
+  & .button_blue
+    background-color: $color_blue
+  & .button_yellow
+    background-color: $color_yellow
+
+
+  & .color_chip
+    font-family: $English_font
+    display: inline-block
+    margin-right: 20px
+    & .color_block,& .color_tag
+        display: inline-block
+        vertical-align: middle
+    & .color_tag
+        width: 80px
+    & .color_block
+        +size(35px,35px)
+        border: solid 2px white
+    & .color_block_red
+        background-color: $color_red
+    & .color_block_green
+        background-color: $color_green
+    & .color_block_blue
+         background-color: $color_blue 
+    & .color_block_yellow
+        background-color: $color_yellow
+
+
+.content_color
+    background-color: $bg_color
+    color: $font_color
+    & .small_english
+        color: $color_blue
+.content_color2
+    background-color: $color_yellow
+    color: $font_color
+    & .small_english
+        color: $color_blue
+
+.content_color3
+    background-color: $color_green
+    color: $font_color
+    & .small_english
+        color: $color_red
+    & .title_hr
+        border: solid 2px $color_red

@@ -1,0 +1,134 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.max_width {
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  height: 400px;
+  background-color: #F2C166;
+}
+.header .icon {
+  width: 450px;
+  position: absolute;
+  left: 48%;
+  top: 40%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.content {
+  padding: 50px;
+}
+.content h5 {
+  margin-top: 10px;
+  font-family: "Outfit";
+}
+.content .title_hr {
+  border: solid 2px #048ABF;
+  width: 100px;
+}
+.content h1 {
+  font-size: 40px;
+  font-family: "Noto Sans JP";
+}
+.content h2 {
+  font-size: 30px;
+  font-family: "Noto Sans JP";
+}
+.content h3 {
+  font-size: 20px;
+  font-family: "Noto Sans JP";
+}
+.content h1.small_english {
+  font-size: 24px;
+}
+.content h2.small_english {
+  font-size: 16px;
+}
+.content h3.small_english {
+  font-size: 12px;
+}
+.content .small_english {
+  font-family: "Outfit";
+  margin-top: -15px;
+}
+.content .button {
+  padding: 5px 25px;
+  display: inline-block;
+  margin-right: 10px;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-family: "Outfit";
+  border: solid 2px white;
+  background-color: #F20530;
+}
+.content .button_green {
+  background-color: #038C4C;
+}
+.content .button_blue {
+  background-color: #048ABF;
+}
+.content .button_yellow {
+  background-color: #F2C166;
+}
+.content .color_chip {
+  font-family: "Outfit";
+  display: inline-block;
+  margin-right: 20px;
+}
+.content .color_chip .color_block, .content .color_chip .color_tag {
+  display: inline-block;
+  vertical-align: middle;
+}
+.content .color_chip .color_tag {
+  width: 80px;
+}
+.content .color_chip .color_block {
+  width: 35px;
+  height: 35px;
+  border: solid 2px white;
+}
+.content .color_chip .color_block_red {
+  background-color: #F20530;
+}
+.content .color_chip .color_block_green {
+  background-color: #038C4C;
+}
+.content .color_chip .color_block_blue {
+  background-color: #048ABF;
+}
+.content .color_chip .color_block_yellow {
+  background-color: #F2C166;
+}
+
+.content_color {
+  background-color: #f6cfad;
+  color: #3C3C3C;
+}
+.content_color .small_english {
+  color: #048ABF;
+}
+
+.content_color2 {
+  background-color: #F2C166;
+  color: #3C3C3C;
+}
+.content_color2 .small_english {
+  color: #048ABF;
+}
+
+.content_color3 {
+  background-color: #038C4C;
+  color: #3C3C3C;
+}
+.content_color3 .small_english {
+  color: #F20530;
+}
+.content_color3 .title_hr {
+  border: solid 2px #F20530;
+}/*# sourceMappingURL=BrandGuideline.css.map */

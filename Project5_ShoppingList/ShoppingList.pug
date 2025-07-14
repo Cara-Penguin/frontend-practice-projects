@@ -1,0 +1,25 @@
+doctype html
+html
+    head
+        title ShoppingList
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="ShoppingList.css")
+        script(src="https://code.jquery.com/jquery-3.6.0.min.js")
+        script(src="ShoppingList.js")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet")
+
+
+
+    body
+    #buylist
+        h1 MyBuylist 購物清單
+        .buy_item.control_panel
+            label 商品名稱
+            input#input_name(placeholder ="名稱...")
+            label 價錢
+            input#input_price(placeholder ="500")
+            span.addbtn + 新增
+        #items_list
