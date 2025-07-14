@@ -28,9 +28,6 @@
 4. 在 *.html 上點右鍵 → Open with Live Server
 頁面就會在瀏覽器中正確顯示
 
-🔎 快速導覽
-
-📄 - [Project0_Card_HTMLOnly](#project0_card_htmlonly)
 
 
 
