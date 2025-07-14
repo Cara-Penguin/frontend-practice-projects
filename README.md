@@ -19,4 +19,30 @@
 **Project6_Plane**  |  HTML, CSS, Sass, Pug, JS, Bootstrap, jQuery, Skrollr  | 視覺互動效果的網頁展示 |
 
 
+## 🔧 如何使用本專案
+
+建議使用 VS Code 搭配 Live Server 開啟:
+1. 下載或 clone 此 Repository
+2. 使用 VS Code 開啟資料夾
+3. 安裝 Live Server 擴充套件
+4. 在 *.html 上點右鍵 → Open with Live Server
+頁面就會在瀏覽器中正確顯示
+
+🔎 快速導覽
+📄 Project0_Card_HTMLOnly
+
+📄 Project1_Card
+
+📄 Project2_Resume
+
+📄 Project3_Brand
+
+📄 Project4_WeatherBox
+
+📄 Project5_ShoppingList
+
+📄 Project6_Plane
+
+
+
 
