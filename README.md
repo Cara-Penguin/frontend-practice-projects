@@ -4,7 +4,7 @@
 ## 📁 專案總覽
 | 專案名稱 | 技術 | 說明 |
 
-Project0_Card_HTMLOnly | HTML | 純 HTML 練習卡片排版 |
+**Project0_Card_HTMLOnly** | HTML | 純 HTML 練習卡片排版 |
 
 Project1_Card | HTML, CSS | 卡片設計&初步熟悉HTML, CSS的應用 |
 
