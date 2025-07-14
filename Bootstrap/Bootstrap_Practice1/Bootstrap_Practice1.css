@@ -1,0 +1,16 @@
+@charset "UTF-8";
+* {
+  font-family: "微軟正黑體";
+}
+
+body {
+  background-color: #D8D8EB;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+h3 {
+  margin: 10px;
+}/*# sourceMappingURL=Bootstrap_Practice1.css.map */

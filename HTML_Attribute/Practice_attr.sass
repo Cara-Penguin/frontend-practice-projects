@@ -1,0 +1,44 @@
+*
+  background-color: #D0D0D0		
+  font-family: 微軟正黑體
+  
+body,html
+  background-color: #272727	
+  
+@mixin size($w,$h)
+  width:$w
+  height:$h
+  
+div
+  border: solid 5px 
+  padding: 20px
+  color: #D0D0D0
+  margin: 20px
+  background-color: transparent
+  +size(150px,50px)
+  &::before
+    content: attr(data-size) "-"
+  &::after
+    content: "("attr(data-color)")"
+  
+
+div[data-size="small"]
+  +size(150px,50px)
+  
+  
+div[data-size="medium"]
+  +size(250px,70px)
+  
+div[data-size="large"]
+  +size(350px,90px)
+  
+div[data-color="red"]
+    border-color: #FF5151			
+
+  
+div[data-color="purple"]
+    border-color: #D3A4FF
+		
+
+div[data-color="blue"]
+  border-color: #000079			

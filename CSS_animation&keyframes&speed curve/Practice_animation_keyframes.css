@@ -1,0 +1,130 @@
+.box, .block {
+  border: solid 2px black;
+}
+
+.box {
+  width: 800px;
+  height: 400px;
+  position: relative;
+  background-color: #D3BBB7;
+}
+
+.block {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.block1 {
+  left: 100px;
+  animation: ani1 2s infinite;
+  animation-timing-function: steps(5);
+}
+
+.block2 {
+  left: 250px;
+  animation: ani2 2s infinite;
+  animation-timing-function: linear;
+}
+
+.block3 {
+  left: 400px;
+  animation: ani3 2s infinite;
+  animation-timing-function: ease-in;
+}
+
+.block4 {
+  left: 550px;
+  animation: ani4 2s infinite;
+  animation-timing-function: ease-out;
+}
+
+.block5 {
+  left: 700px;
+  animation: ani5 2s infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes ani1 {
+  0% {
+    bottom: 100px;
+  }
+  50% {
+    bottom: 0px;
+    background-color: #9297AB;
+  }
+  100% {
+    bottom: 100px;
+  }
+}
+@keyframes ani2 {
+  0% {
+    bottom: 100px;
+  }
+  30% {
+    transform: rotate(0deg);
+  }
+  50% {
+    bottom: 0px;
+    background-color: #9297AB;
+    transform: rotate(180deg);
+  }
+  70% {
+    transform: rotate(0deg);
+  }
+  100% {
+    bottom: 100px;
+  }
+}
+@keyframes ani3 {
+  0% {
+    bottom: 100px;
+  }
+  30% {
+    transform: scale(1);
+  }
+  50% {
+    bottom: 0px;
+    background-color: #9297AB;
+    transform: scale(0.5);
+  }
+  70% {
+    transform: scale(1);
+  }
+  100% {
+    bottom: 100px;
+  }
+}
+@keyframes ani4 {
+  0% {
+    transform: translateX(0px) translateY(0px);
+  }
+  20% {
+    transform: translateX(50px) translateY(0px);
+  }
+  40% {
+    transform: translateX(50px) translateY(-50px);
+    background-color: #9297AB;
+  }
+  60% {
+    transform: translateX(0px) translateY(-50px);
+  }
+  80% {
+    transfiorm: translateX(0px) translateY(0px);
+  }
+}
+@keyframes ani5 {
+  0% {
+    transform: skewX(20deg);
+    transform-orgin: 0% 100%;
+  }
+  50% {
+    transform: skewX(-20deg);
+    transform-orgin: 0% 100%;
+  }
+  100% {
+    transform: skewX(20deg);
+    transform-orgin: 0% 100%;
+  }
+}/*# sourceMappingURL=Practice_animation_keyframes.css.map */

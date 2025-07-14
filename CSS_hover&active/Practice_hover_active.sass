@@ -1,0 +1,22 @@
+@mixin block($w:50px,$h:50px,$back:white,$bor:black)
+  width:$w
+  height: $h
+  background-color: $back
+  border : solid 2px $bor
+  transition-duration: 1s
+  
+.block1
+  +block(200px,200px)
+.block1:hover
+  background-color: #B15BFF
+.block1:active
+  background-color: #003D79
+
+.block1:hover .block2
+  background-color: #FF7575
+
+.block1:hover .block3
+  background-color: #2894FF
+  width: 100px
+.block2,.block3
+  +block(50px,50px)

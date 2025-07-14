@@ -1,0 +1,128 @@
+$color_white: #C1CED9
+$color_light_blue: #5386A6
+$color_light_brown: #BFB2AA
+$color_dark_blue: #2A678C
+$color_dark_blue2: #254559
+
+$content_max_width: 1024px
+$break_width: 800px
+
+
+
+
+*
+  // border: solid 1px
+  font-family: "微軟正黑體"
+  position: relative
+  vertical-align: top
+html,body
+  margin: 0
+  padding: 0
+  background-color: $color_white
+.container
+  max-width: $content_max_width
+  margin-left: auto
+  margin-right: auto
+  
+.topbar
+  height: 50px
+  background-color: $color_dark_blue2
+  .icon
+    height: 30px
+    margin: 10px
+    margin-left: 15px
+    margin-right: 5px
+  input
+    height: 30px
+    margin: 10px
+    border: none
+    margin-left: 0px
+    width: 300px
+    border-radius: 5px
+    padding-left: 10px
+.cover
+  height: 330px
+  background-image: url("https://www.technice.com.tw/wp-content/uploads/2023/05/192027709_fb-link_normal_none-1024x535.jpg")
+  background-position: center
+.midbar
+  height: 50px
+  background-color: $color_dark_blue
+  .personimg
+    width: 150px
+    height: 150px
+    background-image: url("https://www.explore.co.uk/medialibraries/explore/blog-images/2018%2012%20december/shutterstock_1080525158-2.jpg?ext=.jpg&width=620&format=webp&quality=80&v=202103231018")
+    background-size: 120% auto
+    border: solid 4px white
+    position: absolute
+    top: -130px
+    left: 20px
+    .names
+      position: absolute
+      right: -150px
+      color: $color_dark_blue2
+      top: 50%
+      transform: translateY(-50%)
+      h2,h5
+        margin: 0
+      h2
+        font-size: 32px
+      h5
+        font-size: 16px
+        
+        
+    
+.bottombar
+  width: 35%
+  background-color: $color_dark_blue
+  min-width: 300px
+  padding: 20px
+  font-size: 14px
+  line-height: 25px
+  margin-top: 10px
+  i
+    width: 20px
+    vertical-align: middle
+    color: $color_light_brown,
+  span
+      vertical-align: middle
+    
+
+@media screen and (max-width: $break_width)
+  .topbar
+    height: 60px
+    .icon
+      height: 40px
+      margin: 10px
+    input
+      height: 35px
+      width: calc( 100% - 160px)
+      margin-top: 12.5px
+      background-color: darken($color_dark_blue, 30)
+      color: $color_white
+            
+  .midbar
+    height: 200px
+    .personimg
+      width: 160px
+      left: 50%
+      transform: translateX(-50%)
+      .names
+        right: initial
+        left: 50%
+        top: 100%
+        transform: translateX(-50%)
+        white-space: nowrap
+        color: $color_white
+  .bottombar
+    margin: 0
+    width: 100%
+    box-sizing: border-box
+    p
+      border-top: solid 2px lighten($color_dark_blue2, 40)
+      padding-top: 10px
+      padding-left: 20px
+      padding-right: 20px
+      font-size: 13px
+      
+      
+      

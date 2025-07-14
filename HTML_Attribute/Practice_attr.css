@@ -1,0 +1,52 @@
+@charset "UTF-8";
+* {
+  background-color: #D0D0D0;
+  font-family: 微軟正黑體;
+}
+
+body, html {
+  background-color: #272727;
+}
+
+div {
+  border: solid 5px;
+  padding: 20px;
+  color: #D0D0D0;
+  margin: 20px;
+  background-color: transparent;
+  width: 150px;
+  height: 50px;
+}
+div::before {
+  content: attr(data-size) "-";
+}
+div::after {
+  content: "(" attr(data-color) ")";
+}
+
+div[data-size=small] {
+  width: 150px;
+  height: 50px;
+}
+
+div[data-size=medium] {
+  width: 250px;
+  height: 70px;
+}
+
+div[data-size=large] {
+  width: 350px;
+  height: 90px;
+}
+
+div[data-color=red] {
+  border-color: #FF5151;
+}
+
+div[data-color=purple] {
+  border-color: #D3A4FF;
+}
+
+div[data-color=blue] {
+  border-color: #000079;
+}/*# sourceMappingURL=Pratice_attr.css.map */

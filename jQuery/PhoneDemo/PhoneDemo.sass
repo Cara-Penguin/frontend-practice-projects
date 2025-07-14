@@ -1,0 +1,160 @@
+*
+  // border: solid 1px black
+  position: relative
+  font-family: "微軟正黑體"
+  vertical-align: top
+
+html,body
+  width: 150%
+  height: 180%
+  margin: 0
+  padding: 0
+  background-color: #222
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  
+.phone
+  width: 250px
+  padding: 10px
+  background-color: #F0F0F0
+  border-radius: 15px
+  transition: 0.5s
+  left: 0
+  transition: 0.5s
+.top
+  height: 45px
+  .camera
+    width: 10px
+    height: 10px
+    border-radius: 100%
+    background-color: #333
+    position: absolute
+    left: 35%
+    top: 50%
+    transform: translate(-50%,-50%)
+    
+.screen
+  height: 330px
+  transition: 0.5s
+  overflow: hidden
+  cursor: pointer
+  .pages
+    width: 100%
+    height: 100%
+    white-space: nowrap
+    font-size: 0px
+    transition: 0.5s
+    left: 0px
+    .page
+      display: inline-block
+      width: 100%
+      height: 100%
+      background-color: #75809C
+      font-size: initial
+      padding: 10px
+      box-sizing: border-box
+      position: relative
+      white-space: normal
+      color: #eee
+      font-size: 12px
+      p
+        margin-top: 30px
+        letter-spacing: 2px
+        line-height: 3
+      &:before
+        content: ""
+        display: block
+        background-color: #8E9BAE
+        height: 60px
+        width: 100%
+        margin: -10px
+        position: absolute
+        left: 0
+        top: 0
+      &:after
+        content: ""
+        display: block
+        background-color: #8E9BAE
+        height: 20px
+        width: 100%
+        position: absolute
+        left: 0
+        bottom: 0
+      h2
+        color: #003060
+        font-size: 20px
+        margin: 0
+    .page1
+      background-color: #8E9BAE
+      color: #003060
+      h2
+        font-size: 20px
+        margin-bottom: 0px
+        
+      h1
+        font-size: 30px
+        margin-top: 0px
+      .blue
+        height: 300px
+        width: 300px
+        background-color: #3E6079
+        border-radius: 100%
+  
+.bottom
+  height: 55px
+  .button
+    width: 40px
+    height: 40px
+    border-radius: 100%
+    left: 50%
+    top: 55%
+    transform: translate(-50%,-50%)
+    text-align: center
+    font-size: 25px
+    color: rgba(black,0.4)
+    border: solid 1px rgba(black,0.2)
+    &:hover
+      background-color: #D0D0D0
+      cursor: pointer
+    
+.status,.phonename
+  color: white
+  margin: 0
+.status
+  margin-top: 20px
+  font-size: 15px
+.phonename
+  margin: 10px
+.buttons
+  margin-top: 10px
+  button
+    background-color: transparent
+    border: solid 1px rgba(#fff,0.2)
+    color: white
+    padding: 5px 14px
+    border-radius: 5px
+    cursor: pointer
+    &:hover
+      background-color: #fff
+      color: #333
+    
+  
+.hair
+  display: none
+  border-radius: 10px
+  background-color: #3C3C3C
+  position: absolute
+.i14hair
+  height: 30px
+  width: 130px
+  left: 68px
+  top: -8px
+.i15hair
+  height: 25px
+  width: 90px
+  left: 84px
+  top: 12px
+    
+  

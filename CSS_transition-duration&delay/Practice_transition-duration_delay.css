@@ -1,0 +1,64 @@
+@charset "UTF-8";
+body {
+  background-color: #9999CC;
+}
+
+.cross {
+  border: solid 2px black;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transition-duration: 0.5s;
+  background-color: #CA8EC2;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+.cross:hover {
+  background-color: #AD5A5A;
+}
+.cross:hover .line1, .cross:hover .line2 {
+  width: 170px;
+}
+.cross:hover .line1 {
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+.cross:hover .line2 {
+  transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+}
+.cross .line1, .cross .line2 {
+  background-color: #6C3365;
+  width: 150px;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition-duration: 0.5s;
+}
+.cross .line1 {
+  transform: translateX(-50%) translateY(-200%);
+}
+.cross .line2 {
+  transform: translateX(-50%) translateY(200%);
+}
+
+.block {
+  border: solid 2px white;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  font-family: 微軟正黑體;
+}
+.block h1, .block p {
+  position: relative;
+  top: 20px;
+  color: #613030;
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+.block p {
+  transition-delay: 0.5s;
+}
+.block:hover h1, .block:hover p {
+  opacity: 1;
+  top: 0px;
+}/*# sourceMappingURL=Practice_transition-duration_delay.css.map */

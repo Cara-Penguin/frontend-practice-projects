@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap_Practice2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="Bootstrap_Practice2.css">
+  </head>
+  <body>
+    <div class="bg-light p-5 rounded-lg">
+      <div class="container">
+        <h1>Bootstrap 網格系統</h1>
+        <p>Bootstrap的網格系統，使用我們強大、行動優先的 flexbox 網格來建立符合各種尺寸的網頁排版，包含十二欄系統、六個預設的響應式斷點、Sass 變數和 mixins，以及很多預定義的類別。</p>
+        <div class="row">
+          <div class="col-xs-12 d-none d-lg-block d-xl-none">
+            <h3>LG (螢幕 ≥ 992px)</h3>
+          </div>
+          <div class="col-xs-12 d-none d-md-block d-lg-none">
+            <h3>MD (螢幕 ≥ 768px)</h3>
+          </div>
+          <div class="col-xs-12 d-none d-sm-block d-md-none">
+            <h3>SM (螢幕 ≥ 576px)</h3>
+          </div>
+          <div class="col-xs-12 d-block d-sm-none">
+            <h3>XS (螢幕 < 576px)</h3>
+          </div>
+        </div><a class="btn btn-primary" href="https://bootstrap5.hexschool.com/docs/5.1/layout/grid/" target="_blank">中文說明</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="block col-1">1</div>
+        <div class="block col-1">2</div>
+        <div class="block col-1">3</div>
+        <div class="block col-1">4</div>
+        <div class="block col-1">5</div>
+        <div class="block col-1">6</div>
+        <div class="block col-1">7</div>
+        <div class="block col-1">8</div>
+        <div class="block col-1">9</div>
+        <div class="block col-1">10</div>
+        <div class="block col-1">11</div>
+        <div class="block col-1">12</div>
+      </div>
+      <div class="row">
+        <div class="border border-secondary border-1 col-sm-8 offset-sm-4">
+          <h3>偏移的區塊</h3>
+          <p>可以通過.offset- Class來位移欄 。網格位移的空間與欄間格相符合，這種推移對於快速排版可增加更多變化。</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="border border-secondary border-1 col-lg-6 col-md-7 col-sm-4">
+          <h3>大區塊(.col-sm-4.col-md-7.col-lg-6)</h3>
+          <p>Bootstrap 的網格系統預設會自動適應六個斷點以及您自定義的任何斷點。(xs、sm、md、lg、xl、xxl)</p>
+          <div class="card p-2">
+            <div class="card-body">
+              <p class="card-text">尺寸是向上覆蓋的(比如如果指定md中螢幕佔7欄，沒有指定lg大螢幕佔多少，會沿用中螢幕的分配)</p>
+            </div>
+          </div>
+        </div>
+        <div class="border border-secondary border-1 col-lg-6 col-md-5 col-sm-8">
+          <h3>大區塊(.col-sm-4.col-md-7.col-lg-6)</h3>
+          <p>Bootstrap 的網格系統預設會自動適應六個斷點以及您自定義的任何斷點。(xs、sm、md、lg、xl、xxl)</p>
+          <ul class="list-group">
+            <li class="list-group-item">測試清單項目</li>
+            <li class="list-group-item">清單項目2</li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="border border-secondary border-1 col-sm-4">
+            <h3>標題文字(.col-sm-4 .d-none.d-md-block.d-lg-none)</h3>
+            <p>隱藏元素，只需對任何響應式畫面使用 .d-none 或是 .d-{sm,md,lg,xl,xxl}-none 其中之一。</p>
+          </div>
+          <div class="border border-secondary border-1 col-sm-4 d-md-none d-lg-block">
+            <h3>標題文字(.col-sm-4 .d-none.d-md-block.d-lg-none)</h3>
+            <p>我只有在螢幕是中螢幕(md)的時候會出現</p>
+            <p>
+              <div class="btn btn-outline-secondary">詳細資訊</div>
+            </p>
+          </div>
+          <div class="border border-secondary border-1 col-sm-4 d-md-none d-lg-block">
+            <h3>標題文字(.col-sm-4 .d-none.d-md-block.d-lg-none)</h3>
+            <p>我只有在螢幕是中螢幕(md)的時候會出現</p>
+          </div>
+        </div>
+        <hr>
+        <footer>
+          <p>footer</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

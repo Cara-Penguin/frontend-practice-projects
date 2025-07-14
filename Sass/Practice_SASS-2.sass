@@ -1,0 +1,24 @@
+@mixin block($length:50px,$color: black)
+  width: $length
+  height: $length
+  border: solid 2px $color
+.block1
+    +block(70px,purple)
+.block2
+    +block(120px,blue)
+
+.block3
+    +block(150px,red)
+@mixin text($font-size: 30px,$color: red,$letter-spacing: 20px)
+    font-size:$font-size
+    color: $color
+    letter-spacing: $letter-spacing
+@mixin size($w,$h)
+  width: $w
+  height: $h
+h3
+  +text(10px,green,50px)
+  font-family: 微軟正黑體
+.button
+  border: solid 2px black
+  +size(50px,20px)

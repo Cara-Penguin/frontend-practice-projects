@@ -1,0 +1,32 @@
+.block1 {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: solid 2px black;
+  transition-duration: 1s;
+}
+
+.block1:hover {
+  background-color: #B15BFF;
+}
+
+.block1:active {
+  background-color: #003D79;
+}
+
+.block1:hover .block2 {
+  background-color: #FF7575;
+}
+
+.block1:hover .block3 {
+  background-color: #2894FF;
+  width: 100px;
+}
+
+.block2, .block3 {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: solid 2px black;
+  transition-duration: 1s;
+}/*# sourceMappingURL=Pratice_hover_active.css.map */

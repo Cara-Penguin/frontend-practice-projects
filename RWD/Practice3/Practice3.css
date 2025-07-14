@@ -1,0 +1,138 @@
+@charset "UTF-8";
+* {
+  font-family: "微軟正黑體";
+  position: relative;
+  vertical-align: top;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #C1CED9;
+}
+
+.container {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topbar {
+  height: 50px;
+  background-color: #254559;
+}
+.topbar .icon {
+  height: 30px;
+  margin: 10px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+.topbar input {
+  height: 30px;
+  margin: 10px;
+  border: none;
+  margin-left: 0px;
+  width: 300px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.cover {
+  height: 330px;
+  background-image: url("https://www.technice.com.tw/wp-content/uploads/2023/05/192027709_fb-link_normal_none-1024x535.jpg");
+  background-position: center;
+}
+
+.midbar {
+  height: 50px;
+  background-color: #2A678C;
+}
+.midbar .personimg {
+  width: 150px;
+  height: 150px;
+  background-image: url("https://www.explore.co.uk/medialibraries/explore/blog-images/2018%2012%20december/shutterstock_1080525158-2.jpg?ext=.jpg&width=620&format=webp&quality=80&v=202103231018");
+  background-size: 120% auto;
+  border: solid 4px white;
+  position: absolute;
+  top: -130px;
+  left: 20px;
+}
+.midbar .personimg .names {
+  position: absolute;
+  right: -150px;
+  color: #254559;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.midbar .personimg .names h2, .midbar .personimg .names h5 {
+  margin: 0;
+}
+.midbar .personimg .names h2 {
+  font-size: 32px;
+}
+.midbar .personimg .names h5 {
+  font-size: 16px;
+}
+
+.bottombar {
+  width: 35%;
+  background-color: #2A678C;
+  min-width: 300px;
+  padding: 20px;
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 10px;
+}
+.bottombar i {
+  width: 20px;
+  vertical-align: middle;
+  color: #BFB2AA;
+}
+.bottombar span {
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+  .topbar {
+    height: 60px;
+  }
+  .topbar .icon {
+    height: 40px;
+    margin: 10px;
+  }
+  .topbar input {
+    height: 35px;
+    width: calc(100% - 160px);
+    margin-top: 12.5px;
+    background-color: #071016;
+    color: #C1CED9;
+  }
+  .midbar {
+    height: 200px;
+  }
+  .midbar .personimg {
+    width: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .midbar .personimg .names {
+    right: initial;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    color: #C1CED9;
+  }
+  .bottombar {
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .bottombar p {
+    border-top: solid 2px #80aeca;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+  }
+}/*# sourceMappingURL=Practice3.css.map */

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+* {
+  font-family: "微軟正黑體";
+  letter-spacing: 2px;
+}
+
+.block {
+  width: 70px;
+  height: 70px;
+  border: solid 2px;
+  display: inline-block;
+}
+
+.bigblock {
+  width: 150px;
+  height: 150px;
+}/*# sourceMappingURL=Practice_jquery_html_css.css.map */

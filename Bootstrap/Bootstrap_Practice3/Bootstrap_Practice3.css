@@ -1,0 +1,105 @@
+@charset "UTF-8";
+* {
+  font-family: "微軟正黑體";
+  position: relative;
+  color: #592202;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+header {
+  text-align: center;
+  background-image: url("https://png.pngtree.com/background/20211215/original/pngtree-fresh-summer-fresh-sunflower-picture-image_1477156.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding: 170px;
+}
+
+section.intro {
+  background-color: #F2E2CE;
+}
+
+section {
+  text-align: center;
+  padding: 80px 0px;
+}
+section .section-heading {
+  font-size: 36px;
+  margin-top: 0px;
+}
+section .section-subheading {
+  font-size: 16px;
+}
+
+.col-sunflower {
+  padding: 40px;
+}
+.col-sunflower img {
+  border: solid 2px #A64F03;
+  width: 150px;
+  height: 140px;
+  border-radius: 100%;
+}
+
+section.story {
+  background-color: #F2B368;
+}
+section.story .col-md-6 {
+  padding: 20px;
+}
+section.story p.content {
+  padding: 20px;
+  letter-spacing: 2px;
+}
+section.story .icon-sunflower {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+section.pictures {
+  padding: 0px;
+}
+section.pictures .col-md-6 {
+  cursor: pointer;
+  padding: 100px;
+}
+section.pictures .col-md-6:hover:before {
+  filter: brightness(0.8);
+}
+section.pictures .col-md-6:hover p {
+  opacity: 0.8;
+  transition-duration: 0.5s;
+}
+section.pictures .col-md-6:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition-duration: 0.5s;
+  background-position: center center;
+}
+section.pictures .pic1:before {
+  background-image: url("https://png.pngtree.com/background/20211215/original/pngtree-light-yellow-gradient-watercolor-sunflower-background-picture-image_1459326.jpg");
+  background-size: cover;
+}
+section.pictures .pic2:before {
+  background-image: url("https://image.slidesdocs.com/responsive-images/background/flower-nature-gradient-watercolor-graffiti-sunflower-powerpoint-background_dcfe481888__960_540.jpg");
+  background-size: cover;
+}
+section.pictures p {
+  opacity: 0.4;
+  transition-duration: 0.5s;
+}
+
+section.ask {
+  background-color: #F2E5BD;
+}
+section.ask input {
+  margin-top: 10px;
+}/*# sourceMappingURL=Bootstrap_Practice3.css.map */

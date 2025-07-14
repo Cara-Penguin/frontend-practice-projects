@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.block1 {
+  width: 70px;
+  height: 70px;
+  border: solid 2px purple;
+}
+
+.block2 {
+  width: 120px;
+  height: 120px;
+  border: solid 2px blue;
+}
+
+.block3 {
+  width: 150px;
+  height: 150px;
+  border: solid 2px red;
+}
+
+h3 {
+  font-size: 10px;
+  color: green;
+  letter-spacing: 50px;
+  font-family: 微軟正黑體;
+}
+
+.button {
+  border: solid 2px black;
+  width: 50px;
+  height: 20px;
+}/*# sourceMappingURL=Pratice_SASS-2.css.map */

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jquery_click_hover/css</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jquery_click_hover.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery_click_hover.js"></script>
+  </head>
+  <body>
+    <h1>jquery 初階滑鼠事件 — click/hover</h1>
+    <h3>1. 點擊觸發，與紀錄購買狀態 (click)</h3>
+    <div class="buybtn">點擊購買</div>
+    <div class="buybtn">點擊購買</div>
+    <hr>
+    <h3>2. 用this操作觸發動作的按鈕: 選擇物品</h3>
+    <div class="selbtn" data-cata="cat">物品一</div>
+    <div class="selbtn" data-cata="penguin">物品二</div>
+    <div class="selbtn" data-cata="dog">物品三</div>
+    <h4 class="show_info">已選擇物品: 無</h4>
+    <h4 class="show_cata">已選擇種類</h4>
+    <hr>
+    <h3>3. 滑鼠移入/移出</h3>
+    <div class="buybtn mbtn">滑鼠移入了嗎?</div>
+    <hr>
+    <h3>4. 時間相關的觸發</h3>
+    <h4>setTimeout(動作,時間)經過特定時間後執行</h4>
+    <h4>setInterval(動作,時間)每經過特定時間後執行</h4>
+    <div class="selbtn timerbox">5秒過後將會變成紫色</div>
+    <div class="countbox">經過xxx秒</div>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+@charset "UTF-8";
+* {
+  font-family: "微軟正黑體";
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  background-color: #53565C;
+}
+
+.minus, .num, .add {
+  display: inline-block;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.minus, .add {
+  width: 30px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  transition-duration: 0.5s;
+}
+.minus:hover, .add:hover {
+  background-color: #ADAAA5;
+  color: #53565C;
+}
+
+.num {
+  width: 50px;
+  text-align: center;
+}
+
+.count {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border: solid 3px #ADAAA5;
+  color: #ADAAA5;
+}
+
+.text {
+  padding: 10px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  text-align: center;
+  font-size: 13px;
+  border-bottom: solid 7px #ADAAA5;
+  transition-duration: 0.5s;
+}
+
+.fill_stock {
+  font-size: 13px;
+  text-align: center;
+  height: 0px;
+  overflow: hidden;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.fill_stock_open {
+  height: 30px;
+  padding-top: 10px;
+}/*# sourceMappingURL=jquery_variable.css.map */

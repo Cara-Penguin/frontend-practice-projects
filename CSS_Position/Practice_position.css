@@ -1,0 +1,55 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  position: relative;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: #8E8E8E;
+}
+
+.phone {
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border: solid 1px #888;
+  border-radius: 6px;
+}
+
+.top {
+  width: 100%;
+  height: 150px;
+  background-image: url("https://storage.googleapis.com/csr-cms-cwg-tw/article/202001/article-5e2002f2a1ffb.jpg");
+  background-size: cover;
+  background-position: centerv center;
+}
+
+.bottom {
+  width: 100%;
+  height: 200px;
+  background-color: #E0E0E0;
+}
+
+.headpic {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: -50px;
+  left: 20px;
+  border: solid 2px #003060;
+  background-image: url("https://www.greenpeace.org/static/planet4-hongkong-stateless/2019/10/90e80dbb-penguin-chick.jpg");
+  background-size: cover;
+}
+
+.name {
+  right: -100px;
+  top: 20px;
+  color: #003D79;
+  letter-spacong: 2px;
+  font-weight: 600;
+}/*# sourceMappingURL=Pratice_position.css.map */
