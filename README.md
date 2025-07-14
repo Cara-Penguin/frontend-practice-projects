@@ -29,20 +29,8 @@
 頁面就會在瀏覽器中正確顯示
 
 🔎 快速導覽
-📄 Project0_Card_HTMLOnly
 
-📄 Project1_Card
-
-📄 Project2_Resume
-
-📄 Project3_Brand
-
-📄 Project4_WeatherBox
-
-📄 Project5_ShoppingList
-
-📄 Project6_Plane
-
+📄 - [Project0_Card_HTMLOnly](#project0_card_htmlonly)
 
 
 
