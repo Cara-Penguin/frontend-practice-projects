@@ -26,6 +26,7 @@
 2. 使用 VS Code 開啟資料夾
 3. 安裝 Live Server 擴充套件
 4. 在 *.html 上點右鍵 → Open with Live Server
+   
 頁面就會在瀏覽器中正確顯示
 
 
