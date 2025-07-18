@@ -1,0 +1,227 @@
+$Rich_Cocoa: #705B35
+$Golden_Sand: #C7B07B
+$Creamy_Almond: #E8D9AC
+$Soft_Ivory: #FFF6D9
+$coffee_color: #573e00
+// ---------------------------------
+@mixin ab_center
+  position: absolute
+  left: 50%
+  top: 0px
+  transform: translate(-50%,-50%)
+  
+@mixin size($w,$h)
+  width: $w
+  height: $h
+// ---------------------------------
+
+*
+  font-family: "Playwrite GB S", cursive,'微軟正黑體'
+  // border: solid 2px 
+
+body,html
+  overflow-x: hidden
+  font-size: 16px
+  margin: 0px
+
+
+
+nav.navbar
+  transition: 0.5s
+  font-weight: 600
+  background-color: $Golden_Sand
+  a
+    transition: 0.5s
+    color: $Rich_Cocoa !important
+    &:hover
+      color: $coffee_color !important
+  
+nav.navbar.at_top
+  background-color: transparent 
+  border: solid 1px $Golden_Sand
+  a, a:visited
+    color: $Rich_Cocoa
+
+header#header_index
+  position: relative
+  background-color: $Creamy_Almond
+  text-align: center
+  .icon
+    width: 100%
+    max-width: 300px 
+    padding: 200px 0px
+  .marginbottom
+    position: absolute
+    width: 100%
+    bottom: 0px
+    right: 0px
+    animation: upin 2s both
+  @keyframes upin
+    0%
+      bottom: -100px
+    100%
+    bottom: 0px
+  .explore
+    +ab_center
+    font-size: 16px
+    top: 80%
+    color: $Rich_Cocoa
+    opacity: 0
+    transition: 0.5s
+    &:after
+      display: block
+      content: "v"
+      transform: scaleX(1.2) scaleY(0.5)
+    &.at_top
+      opacity: 1
+  
+section
+  padding: 60px 0px
+  position: relative
+  
+section#section_about
+  background-color: $Soft_Ivory
+  .container
+    transform: rotate(15deg) scale(0.9)
+  .row
+    height: 150px
+    color: $Rich_Cocoa
+    .r1text
+      font-size: 60px
+    .r2text
+      font-size: 35px
+    .r3text
+      font-size: 40px
+      text-align: right
+      margin-top: 80px
+
+  .btn-area
+    height: 150px
+    position: relative
+
+  a
+    +ab_center
+    transform: translate(-50%,-50%) rotate(10deg)
+    color: $Rich_Cocoa
+    background-color: $Creamy_Almond
+    top: 80px
+    
+
+  .paw1
+    width: 90px
+    transform: rotate(30deg)
+  .paw2
+    width: 150px
+    margin-left: 20px
+    transform: rotate(-45deg)
+  .paw3
+    width: 100px
+    margin-left: 60%
+    transform: rotate(-45deg)
+  .paw4
+    width: 70px
+    margin-left: 100%
+    transform: rotate(40deg)
+  .paw5
+    width: 170px
+    margin-left: 100%
+    transform: rotate(-50deg)
+    
+section#section_service
+  background-color: $Creamy_Almond
+  .col-sm-4
+    text-align: center
+  h1,h3
+    color:  $coffee_color
+  .icon_service
+    margin-bottom: 30px
+    width: 60%
+  hr
+    color: rgba(black,0.6)
+    
+section#section_works
+  background-color: $Soft_Ivory
+  color:  $coffee_color
+  hr
+    color: rgba(black,0.6)
+  .work
+    height: 250px
+    cursor: pointer
+    position: relative
+    text-align: center
+    padding: 5px
+    .texts1
+      position: absolute
+      top: 200px
+      left: 50%
+      transform: translateX(-50%)
+      text-align: center
+      padding: 5px 10px
+      border-radius: 5px
+      z-index: 8
+      color:$Soft_Ivory
+      opacity: 0
+      transition: 0.5s
+    .texts
+      position: absolute
+      top: 80px
+      left: 50%
+      transform: translateX(-50%)
+      text-align: center
+      padding: 5px 10px
+      border-radius: 5px
+      z-index: 8
+      color:$Soft_Ivory
+      opacity: 0
+      transition: 0.5s
+
+    img
+      +size(100%,100%)
+      object-fit: cover
+    &:before
+      content: ""
+      display: block
+      opacity: 0
+      position: absolute
+      top: 0
+      left: 0
+      +size(100%,100%)
+      background-color: rgba(black,0.6)
+      z-index: 5
+      transition: 0.5s
+    &:hover
+      &:before,.texts1,.texts
+        opacity: 1
+
+      
+  .big
+    height: 500px
+
+    
+section#section_contact
+  background-color: $Rich_Cocoa
+  color: $Soft_Ivory
+  position: relative
+  overflow: hidden
+  input,textarea
+    display: block
+    background-color: transparent
+    border: none
+    border: solid 2px $Soft_Ivory
+  .mailbody
+    background-color: $Golden_Sand
+    border-radius: 10px
+    padding: 20px
+    padding-left: 40px
+    
+footer
+  position: relative
+  background-color: $Creamy_Almond
+  text-align: center
+  .icon
+      width: 100%
+      max-width: 300px 
+      padding: 50px 0px
+    
+
+      
